@@ -9,9 +9,9 @@ class Database {
 
     //Propiedades estaticas con la informacion de la conexion (DSN):
     private static $dbName = 'facturacion';
-    private static $dbHost = 'localhost';
-    private static $dbUsername = 'root';
-    private static $dbUserPassword = '';
+    private static $dbHost = 'mysqlsc.mysql.database.azure.com';
+    private static $dbUsername = 'mysqlsc@mysqlsc';
+    private static $dbUserPassword = 'vamos.com8';
     //Propiedad para control de la conexion:
     private static $conexion = null;
 
